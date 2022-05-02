@@ -1,0 +1,31 @@
+{
+  "name": "distabets",
+  "version": "0.0.1",
+  "description": "Decentralized betting platform",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "compile": "truffle compile-all",
+    "test": "truffle run coverage"
+  },
+  "keywords": [
+    "defi",
+    "betting",
+    "markets",
+    "ethereum",
+    "solidity",
+    "polygon",
+    "eth"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.0",
+    "solidity-coverage": "^0.7.21",
+    "truffle-flatten": "^1.0.8",
+    "truffle-privatekey-provider": "^1.5.0"
+  }
+}
